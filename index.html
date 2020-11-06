@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello,I'm Wendy</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+
+    <aside>
+        <nav>
+            <img src="images/background-img.jpg" alt="">
+            <a href="#home"><i class="material-icons md-36">home</i>
+            <p>Home</p></a>
+
+            <a href="#about"><i class="material-icons md-36">person</i>
+            <p>About</p></a>
+            <a href="#skills"><i class="material-icons md-36">build</i>
+                <p>Skill</p></a>
+
+            <a href="#project"><i class="material-icons md-36">folder</i>
+            <p>Project</p></a>
+
+            <a href="#contact"><i class="material-icons md-36">email</i>
+            <p>Contact</p></a>
+
+        </nav>
+    </aside>
+
+    <nav class="mobile-nav">
+
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">About</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+    <main>
+        <header class="home" id="home"><br><br>
+            <h1>Hello,I'm Wendy</h1>
+            <h5>This is my personal website</h5>
+            <img src="images/background-img.jpg" alt="">
+
+        </header>
+    </main>
+
+    <section class="about" id="about">
+
+        <h2>About me</h2>
+        <p>
+            <span>您好，我是鄭雅文</span></br>
+            程式的設計生涯開始於2020年10月參加RWD切版課程，自那後對網頁設計有極大的熱情，認為如果能把興趣結合工作是一件很開心的事情。 我的興趣廣泛，對任何新奇或有趣的事物感興趣，在技能方面也是，前端(HTML,CSS,JQuery)、後端(php)、平面設計(Illustrator、Photoshop)。缺點就是前端比較熟練和有興趣，後端只略懂一些。
+
+        </p>
+
+        <p>
+            喜歡在網路上參考別人製作的網站，慢慢培養自己的美感，從每個前輩的身上學習自己沒有的。目前正朝JavaScript前進中、期許往後能一直進階各種程式、框架邁進。 有想法、興趣廣泛、好相處、有足夠的社會經歷，能夠克服任何障礙，這是我認為我的優點，也許沒有任何設計相關的經歷，但只要給我機會，我相信自己能很快進入狀況，希望可以獲得更進一步的面試機會，讓你們能夠更了解我，我也能夠更了解你們。
+        </p>
+    </section>
+
+    <section class="Skills" id="skills">
+        <h2>My Skills</h2>
+
+
+        <p>HTML 5</p>
+        <div class="container">
+            <div class="skills html">85%</div>
+        </div>
+
+        <p>CSS3</p>
+        <div class="container">
+            <div class="skills css">85%</div>
+        </div>
+
+        <p>JQuery</p>
+        <div class="container">
+            <div class="skills jq">65%</div>
+        </div>
+
+        <p>Illustrator</p>
+        <div class="container">
+            <div class="skills ia">75%</div>
+        </div>
+
+        <p>Photoshop</p>
+        <div class="container">
+            <div class="skills ps">75%</div>
+        </div>
+
+    </section>
+
+    <section class="project" id="project">
+
+        <h2>Project</h2>
+
+        <div class="row-halves">
+            <div class="col">
+                <!-- <img src="images/life-web.jpg" alt=""> -->
+                <img src="https://fakeimg.pl/250x100/ff0000/">
+                <h3>fack</h3>
+                <p>
+                    HTML</br>
+                    CSS 動畫特效</br>
+                    UI 設計</br>
+                    JQuery</br>
+                    Bootstrap 切版</br>
+                    Desktop / Tablet / Mobile</br>
+                </p>
+                <button class="button">
+                    <a href="https://wen27.github.io/chicken-shop/" target="_blank">Demo</a>
+                </button>
+            </div>
+
+            <div class="col">
+                <!-- <img src="images/shoppin-web.jpg" alt=""> -->
+                <img src="https://fakeimg.pl/250x100/ff0000/">
+                <h3>fack</h3>
+                <p>
+                    HTML</br>
+                    UI 設計</br>
+                    JQuery</br>
+                    Bootstrap 切版</br>
+                    Desktop / Tablet / Mobile</br>
+                    </br>
+                </p>
+                <button class="button">
+                    <a href="https://wen27.github.io/T-shirt_shop/" target="_blank">Demo</a>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+
+        <h2>Contat</h2>
+        <div class="container">
+            <form action="">
+                <label for="name">姓名</label>
+                <input type="text" name="name" id="name">
+                <label for="email">信箱</label>
+                <input type="text" id="email" name="email">
+                <label for="message">留言</label>
+                <textarea name="message" id="message" style="height:200px"></textarea>
+                <input type="submit" value="送出">
+
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <section class="top-bar">
+            <a href="mailto:wendywendy773773@gmail.com"><i class="fa fa-email">E-mail</i> </a>
+            <a href="https://github.com/wen27"><i class="fab fa-github">Github</i></a>
+        </section>
+
+        <section class="bottom-bar">
+            <p>&copy; 2020 ｜ Wendy Change</p>
+        </section>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
